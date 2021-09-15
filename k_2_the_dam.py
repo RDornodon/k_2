@@ -1,0 +1,1 @@
+for I in[I:=input]*int(I()):A=*map(int,I().split()),;print(sum(min(max(A[:i+1]),max(A[i:]))-j for i,j in enumerate(A)))
